@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Destiny2Manager.WebApp", "Destiny2Manager.WebApp\Destiny2Manager.WebApp.csproj", "{1EC4490C-F3D9-4692-9A22-D139CFE1F34E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevExtreme NuGet.config", "DevExtreme NuGet.config", "{503CEB78-C8FE-4DCD-BBFB-65BE8317BB98}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.config = NuGet.config
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Destiny2Manager.Models", "Destiny2Manager.Models\Destiny2Manager.Models.csproj", "{318958BC-8DE2-4CBE-8D9A-E13FD9AFE674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Destiny2Manager.Core", "Destiny2Manager.Core\Destiny2Manager.Core.csproj", "{BC357B2C-8F08-4E20-BED0-779D7417E8E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EC4490C-F3D9-4692-9A22-D139CFE1F34E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC4490C-F3D9-4692-9A22-D139CFE1F34E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC4490C-F3D9-4692-9A22-D139CFE1F34E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC4490C-F3D9-4692-9A22-D139CFE1F34E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318958BC-8DE2-4CBE-8D9A-E13FD9AFE674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318958BC-8DE2-4CBE-8D9A-E13FD9AFE674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318958BC-8DE2-4CBE-8D9A-E13FD9AFE674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318958BC-8DE2-4CBE-8D9A-E13FD9AFE674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC357B2C-8F08-4E20-BED0-779D7417E8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC357B2C-8F08-4E20-BED0-779D7417E8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC357B2C-8F08-4E20-BED0-779D7417E8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC357B2C-8F08-4E20-BED0-779D7417E8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C49B380-288C-42D7-99D4-0A523A4538F3}
+	EndGlobalSection
+EndGlobal

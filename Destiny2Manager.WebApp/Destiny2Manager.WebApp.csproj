@@ -1,0 +1,131 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\css\devextreme\fonts\Roboto-300.woff2" />
+      <None Include="wwwroot\css\devextreme\fonts\Roboto-400.woff2" />
+      <None Include="wwwroot\css\devextreme\fonts\Roboto-500.woff2" />
+      <None Include="wwwroot\css\devextreme\fonts\Roboto-700.woff2" />
+      <None Include="wwwroot\css\devextreme\icons\dxicons.woff2" />
+      <None Include="wwwroot\css\devextreme\icons\dxiconsmaterial.woff2" />
+      <None Include="wwwroot\js\devextreme\aspnet\dx.aspnet.data.js" />
+      <None Include="wwwroot\js\devextreme\aspnet\dx.aspnet.mvc.js" />
+      <None Include="wwwroot\js\devextreme\bootstrap.js" />
+      <None Include="wwwroot\js\devextreme\bootstrap.min.js" />
+      <None Include="wwwroot\js\devextreme\cldr.js" />
+      <None Include="wwwroot\js\devextreme\cldr.min.js" />
+      <None Include="wwwroot\js\devextreme\cldr\event.js" />
+      <None Include="wwwroot\js\devextreme\cldr\event.min.js" />
+      <None Include="wwwroot\js\devextreme\cldr\supplemental.js" />
+      <None Include="wwwroot\js\devextreme\cldr\supplemental.min.js" />
+      <None Include="wwwroot\js\devextreme\cldr\unresolved.js" />
+      <None Include="wwwroot\js\devextreme\cldr\unresolved.min.js" />
+      <None Include="wwwroot\js\devextreme\dx-diagram.js" />
+      <None Include="wwwroot\js\devextreme\dx-diagram.min.js" />
+      <None Include="wwwroot\js\devextreme\dx-gantt.js" />
+      <None Include="wwwroot\js\devextreme\dx-gantt.min.js" />
+      <None Include="wwwroot\js\devextreme\dx-quill.js" />
+      <None Include="wwwroot\js\devextreme\dx-quill.min.js" />
+      <None Include="wwwroot\js\devextreme\dx.all.debug.js" />
+      <None Include="wwwroot\js\devextreme\dx.all.js" />
+      <None Include="wwwroot\js\devextreme\dx.viz.debug.js" />
+      <None Include="wwwroot\js\devextreme\dx.viz.js" />
+      <None Include="wwwroot\js\devextreme\dx.web.debug.js" />
+      <None Include="wwwroot\js\devextreme\dx.web.js" />
+      <None Include="wwwroot\js\devextreme\exceljs.js" />
+      <None Include="wwwroot\js\devextreme\exceljs.min.js" />
+      <None Include="wwwroot\js\devextreme\FileSaver.js" />
+      <None Include="wwwroot\js\devextreme\FileSaver.min.js" />
+      <None Include="wwwroot\js\devextreme\globalize.js" />
+      <None Include="wwwroot\js\devextreme\globalize.min.js" />
+      <None Include="wwwroot\js\devextreme\globalize\currency.js" />
+      <None Include="wwwroot\js\devextreme\globalize\currency.min.js" />
+      <None Include="wwwroot\js\devextreme\globalize\date.js" />
+      <None Include="wwwroot\js\devextreme\globalize\date.min.js" />
+      <None Include="wwwroot\js\devextreme\globalize\message.js" />
+      <None Include="wwwroot\js\devextreme\globalize\message.min.js" />
+      <None Include="wwwroot\js\devextreme\globalize\number.js" />
+      <None Include="wwwroot\js\devextreme\globalize\number.min.js" />
+      <None Include="wwwroot\js\devextreme\jquery.js" />
+      <None Include="wwwroot\js\devextreme\jquery.min.js" />
+      <None Include="wwwroot\js\devextreme\jspdf.plugin.autotable.js" />
+      <None Include="wwwroot\js\devextreme\jspdf.plugin.autotable.min.js" />
+      <None Include="wwwroot\js\devextreme\jspdf.umd.js" />
+      <None Include="wwwroot\js\devextreme\jspdf.umd.min.js" />
+      <None Include="wwwroot\js\devextreme\jszip.js" />
+      <None Include="wwwroot\js\devextreme\jszip.min.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.ar.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.ca.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.cs.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.de.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.el.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.en.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.es.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.fi.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.fr.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.hu.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.it.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.ja.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.lt.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.nb.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.nl.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.pt.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.ro.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.ru.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.sl.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.sv.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.tr.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.vi.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.zh-tw.js" />
+      <None Include="wwwroot\js\devextreme\localization\dx.messages.zh.js" />
+      <None Include="wwwroot\js\devextreme\vectormap-data\africa.js" />
+      <None Include="wwwroot\js\devextreme\vectormap-data\canada.js" />
+      <None Include="wwwroot\js\devextreme\vectormap-data\eurasia.js" />
+      <None Include="wwwroot\js\devextreme\vectormap-data\europe.js" />
+      <None Include="wwwroot\js\devextreme\vectormap-data\usa.js" />
+      <None Include="wwwroot\js\devextreme\vectormap-data\world.js" />
+      <None Include="wwwroot\js\devextreme\vectormap-utils\dx.vectormaputils.debug.js" />
+      <None Include="wwwroot\js\devextreme\vectormap-utils\dx.vectormaputils.js" />
+      <None Include="wwwroot\js\devextreme\vectormap-utils\dx.vectormaputils.node.js" />
+    </ItemGroup>
+
+    <ItemGroup>
+    <PackageReference Include="DevExtreme.AspNet.Data" Version="2.9.0" />
+    <PackageReference Include="DevExtreme.AspNet.Core" Version="22.2.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Pathoschild.Http.FluentClient" Version="4.3.0" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.117" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\images\shop\grid\no-margins\" />
+      <Folder Include="wwwroot\images\shop\grid\small-margins\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Destiny2Manager.Core\Destiny2Manager.Core.csproj" />
+      <ProjectReference Include="..\Destiny2Manager.Models\Destiny2Manager.Models.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Properties\Resources.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Resources.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Properties\Resources.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ProjectExtensions><VisualStudio><UserProperties TemplateFeatures="NETCORE" /></VisualStudio></ProjectExtensions>
+
+</Project>
